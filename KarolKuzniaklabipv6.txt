@@ -1,0 +1,25 @@
+Tabela adresowania
+
+PC1 karta sieciowa   10.10.1.100  255.255.255.224  10.10.1.97
+	             2001:DB8:1:1::A		   FE80::1
+
+PC2 karta sieciowa 10.10.1.20    255.255.255.240  10.10.1.17
+		   2001:DB8:1:4::A 		   FE80::3
+cz 2
+Krok 1
+a. tak
+b. tak
+krok 2
+a. tak.
+b. tak
+
+cz3
+a.jakie adresy napotkalo na drodze:
+10.10.1.97, 10.10.1.10, 10.10.1.20
+z ktorymi interfejsami sa skojarzone cztery adresy?
+10.10.1.20 R1 GigabitEthernet0/0 10.10.1.10 R2 Serial0/0/0   10.10.1.20 PC2 Fastethernet0
+
+b.jakie adresy napotkalo na drodze:
+10.10.1.17, 10.10.1.9, 10.10.1.6, 10.10.1.100
+z ktorymi interfejsami sa skojarzone cztery adresy?
+10.10.1.17 R3 GigabitEthernet0/0   10.10.1.10 R2 Serial0/0/0
